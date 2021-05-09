@@ -1,0 +1,7 @@
+version: '3.5'
+services:
+    aftersale:
+        build: ./
+        restart: always
+        ports:
+            - 80:80
